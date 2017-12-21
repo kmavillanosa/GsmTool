@@ -1,0 +1,11 @@
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\bin\Debug\SmsTester.exe.config
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\bin\Debug\SmsTester.exe
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\bin\Debug\SmsTester.pdb
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\bin\Debug\GsmSmsSender.dll
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\bin\Debug\GSMCommunication.dll
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\bin\Debug\PDUConverter.dll
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\bin\Debug\GSMCommShared.dll
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\bin\Debug\GsmSmsSender.pdb
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\obj\Debug\SmsTester.csprojResolveAssemblyReference.cache
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\obj\Debug\SmsTester.exe
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\obj\Debug\SmsTester.pdb

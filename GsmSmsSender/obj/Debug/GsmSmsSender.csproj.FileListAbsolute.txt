@@ -1,0 +1,11 @@
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\GsmSmsSender\bin\Debug\GsmSmsSender.dll
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\GsmSmsSender\bin\Debug\GsmSmsSender.pdb
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\GsmSmsSender\obj\Debug\GsmSmsSender.csprojResolveAssemblyReference.cache
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\GsmSmsSender\obj\Debug\GsmSmsSender.dll
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\GsmSmsSender\obj\Debug\GsmSmsSender.pdb
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\GsmSmsSender\bin\Debug\GSMCommServer.dll
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\GsmSmsSender\bin\Debug\GSMCommShared.dll
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\GsmSmsSender\bin\Debug\GSMCommunication.dll
+c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\GsmSmsSender\bin\Debug\PDUConverter.dll
+C:\Users\keem\Documents\Visual Studio 2015\Projects\GsmSmsSender\GsmSmsSender\obj\Debug\GsmSmsSender.Configuration.UI.ConfigForm.resources
+C:\Users\keem\Documents\Visual Studio 2015\Projects\GsmSmsSender\GsmSmsSender\obj\Debug\GsmSmsSender.csproj.GenerateResource.Cache
