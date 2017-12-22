@@ -6,25 +6,13 @@ Works with GSM Usb Stick Modem
 ```C#
 	SmsClient client = new SmsClient(); // client
         GsmConfiguration settings = new GsmConfiguration(); // configuration, (forms and properties)
-```
 	
-       
-```C#
  	// connect to gsm port 
         client.RegisterConfiguration(new SmsConfiguration { BaudRate = 9600, Port = "Serial port here ex: (COM5,COM6)" }); 
-```
-        
 	
-       
-```C#
 	// single message
          client.SendMessage(new SmsDetails() { Message = "Gsm tester", Recipient = "Number" });
-```
-	
-	
-
-	
-```C#
+	 
 	// multiple message
         List<SmsDetails> detailList = new List<SmsDetails>();
         detailList.AddRange(new SmsDetails[]
