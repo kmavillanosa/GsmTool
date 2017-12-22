@@ -2,6 +2,8 @@
 
 Works with GSM Usb Stick Modem
 
+Usage:
+
 
 ```C#
 	SmsClient client = new SmsClient(); // client
