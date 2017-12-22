@@ -8,7 +8,6 @@ class Program
         static GsmConfiguration settings = new GsmConfiguration();
         static void Main(string[] args)
         {
-            settings.LoadForm();
             client.OnServerConnected += Client_OnServerConnected;
             client.OnMessageSent += Client_OnMessageSent;
             client.OnMessageSendingFailed += Client_OnMessageSendingFailed;
