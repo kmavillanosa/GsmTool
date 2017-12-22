@@ -24,19 +24,14 @@ Works with GSM Usb Stick Modem
                     new SmsDetails() { Message ="Hello World", Recipient = "Number" },
                 });
         client.SendMessages(detailList);
-```
-	
-```C#
+
         // raise events 
          client.OnServerConnected += Client_OnServerConnected;
          client.OnMessageSent += Client_OnMessageSent;
          client.OnMessageSendingFailed += Client_OnMessageSendingFailed;
          client.OnServerConnectionFail += Client_OnServerConnectionFail;
          client.OnMessagesSent += Client_OnMessagesSent;
-```
-        
-	
-```C#
+       
 	//EVENTS 
         private static void Client_OnMessagesSent(object sender, MessagesSentEventArgs e)
         {
