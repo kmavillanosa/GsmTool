@@ -39,7 +39,7 @@ Works with GSM Usb Stick Modem
 ```
 	
 ```C#
-        // raise events here
+        // raise events 
          client.OnServerConnected += Client_OnServerConnected;
          client.OnMessageSent += Client_OnMessageSent;
          client.OnMessageSendingFailed += Client_OnMessageSendingFailed;
