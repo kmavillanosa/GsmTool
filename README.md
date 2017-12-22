@@ -6,32 +6,36 @@ Works with GSM Usb Stick Modem
 ```C#
 	SmsClient client = new SmsClient(); // client
         GsmConfiguration settings = new GsmConfiguration(); // configuration, (forms and properties)
-```C#
+```
 	
-        // connect to gsm port 
+       
 ```C#
+ 	// connect to gsm port 
         client.RegisterConfiguration(new SmsConfiguration { BaudRate = 9600, Port = "Serial port here ex: (COM5,COM6)" }); 
 ```
         
-       // single message
+	
+       
 ```C#
+	// single message
          client.SendMessage(new SmsDetails() { Message = "Gsm tester", Recipient = "Number" });
 ```
 	
 	
-// multiple message
+
 	
 ```C#
-        //List<SmsDetails> detailList = new List<SmsDetails>();
-        //detailList.AddRange(new SmsDetails[]
-        //        {
-        //            new SmsDetails() { Message = "Hello World", Recipient = "Number" },
-        //            new SmsDetails() { Message = "Hello World", Recipient = "Number" },
-        //            new SmsDetails() { Message ="Hello World", Recipient = "Number" },
-        //            new SmsDetails() { Message = "Hello World", Recipient = "Number" },
-        //            new SmsDetails() { Message ="Hello World", Recipient = "Number" },
-        //        });
-        //client.SendMessages(detailList);
+	// multiple message
+        List<SmsDetails> detailList = new List<SmsDetails>();
+        detailList.AddRange(new SmsDetails[]
+                {
+                    new SmsDetails() { Message = "Hello World", Recipient = "Number" },
+                    new SmsDetails() { Message = "Hello World", Recipient = "Number" },
+                    new SmsDetails() { Message ="Hello World", Recipient = "Number" },
+                    new SmsDetails() { Message = "Hello World", Recipient = "Number" },
+                    new SmsDetails() { Message ="Hello World", Recipient = "Number" },
+                });
+        client.SendMessages(detailList);
 ```
 	
 ```C#
@@ -43,8 +47,9 @@ Works with GSM Usb Stick Modem
          client.OnMessagesSent += Client_OnMessagesSent;
 ```
         
-	//EVENTS 
+	
 ```C#
+	//EVENTS 
         private static void Client_OnMessagesSent(object sender, MessagesSentEventArgs e)
         {
             Console.WriteLine(e.Message.ToList());
