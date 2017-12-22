@@ -2,7 +2,6 @@
 
 Works with GSM Usb Stick Modem
 
-
 class Program
     {
         static SmsClient client = new SmsClient();
@@ -42,10 +41,10 @@ class Program
         {
             Console.WriteLine("Server Connected");
 
-
+			// single message
             //   client.SendMessage(new SmsDetails() { Message = "Gsm tester", Recipient = "Number" });
 
-            // multiple
+            // multiple message
             //List<SmsDetails> detailList = new List<SmsDetails>();
             //detailList.AddRange(new SmsDetails[]
             //        {
