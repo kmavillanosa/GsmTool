@@ -2,21 +2,38 @@
 
 Works with GSM Usb Stick Modem
 
-class Program
-    {
-        static SmsClient client = new SmsClient();
-        static GsmConfiguration settings = new GsmConfiguration();
-        static void Main(string[] args)
-        {
-            client.OnServerConnected += Client_OnServerConnected;
-            client.OnMessageSent += Client_OnMessageSent;
-            client.OnMessageSendingFailed += Client_OnMessageSendingFailed;
-            client.OnServerConnectionFail += Client_OnServerConnectionFail;
-            client.OnMessagesSent += Client_OnMessagesSent;
-            client.RegisterConfiguration(settings.config);
-            Console.ReadLine();
-        }
+        SmsClient client = new SmsClient();
+        GsmConfiguration settings = new GsmConfiguration();
+        
+        // connect to gsm port 
+        client.RegisterConfiguration(new SmsConfiguration { BaudRate = 9600, Port = "Serial port here ex: (COM5,COM6)" }); 
+	
+        
+       // single message
+       //   client.SendMessage(new SmsDetails() { Message = "Gsm tester", Recipient = "Number" });
 
+        // multiple message
+        //List<SmsDetails> detailList = new List<SmsDetails>();
+        //detailList.AddRange(new SmsDetails[]
+        //        {
+        //            new SmsDetails() { Message = "Hello World", Recipient = "Number" },
+        //            new SmsDetails() { Message = "Hello World", Recipient = "Number" },
+        //            new SmsDetails() { Message ="Hello World", Recipient = "Number" },
+        //            new SmsDetails() { Message = "Hello World", Recipient = "Number" },
+        //            new SmsDetails() { Message ="Hello World", Recipient = "Number" },
+        //        });
+        //client.SendMessages(detailList);
+        
+        
+        // raise events here
+         client.OnServerConnected += Client_OnServerConnected;
+         client.OnMessageSent += Client_OnMessageSent;
+         client.OnMessageSendingFailed += Client_OnMessageSendingFailed;
+         client.OnServerConnectionFail += Client_OnServerConnectionFail;
+         client.OnMessagesSent += Client_OnMessagesSent;
+        
+        
+	//EVENTS 
         private static void Client_OnMessagesSent(object sender, MessagesSentEventArgs e)
         {
             Console.WriteLine(e.Message.ToList());
@@ -39,22 +56,4 @@ class Program
         private static void Client_OnServerConnected(object sender, SmsServerConnected e)
         {
             Console.WriteLine("Server Connected");
-
-			// single message
-            //   client.SendMessage(new SmsDetails() { Message = "Gsm tester", Recipient = "Number" });
-
-            // multiple message
-            //List<SmsDetails> detailList = new List<SmsDetails>();
-            //detailList.AddRange(new SmsDetails[]
-            //        {
-            //            new SmsDetails() { Message = "Hello World", Recipient = "Number" },
-            //            new SmsDetails() { Message = "Hello World", Recipient = "Number" },
-            //            new SmsDetails() { Message ="Hello World", Recipient = "Number" },
-            //            new SmsDetails() { Message = "Hello World", Recipient = "Number" },
-            //            new SmsDetails() { Message ="Hello World", Recipient = "Number" },
-            //        });
-            //client.SendMessages(detailList);
-            
-            
         }
-    }
