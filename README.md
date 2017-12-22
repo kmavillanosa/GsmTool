@@ -2,8 +2,8 @@
 
 Works with GSM Usb Stick Modem
 
-        SmsClient client = new SmsClient();
-        GsmConfiguration settings = new GsmConfiguration();
+        SmsClient client = new SmsClient(); // client
+        GsmConfiguration settings = new GsmConfiguration(); // configuration, (forms and properties)
         
         // connect to gsm port 
         client.RegisterConfiguration(new SmsConfiguration { BaudRate = 9600, Port = "Serial port here ex: (COM5,COM6)" }); 
