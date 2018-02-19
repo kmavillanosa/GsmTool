@@ -41,26 +41,26 @@ Works with GSM Usb Stick Modem
   ```C#
   	private static void Client_OnMessagesSent(object sender, MessagesSentEventArgs e)
         {
-            Console.WriteLine(e.Message.ToList());
+            // receives multiple messages
         }
 
         private static void Client_OnServerConnectionFail(object sender, ServerConnectErrorEventArgs e)
         {
-            Console.WriteLine(e.Message);
+           // gsm port connection failed
         }
 
         private static void Client_OnMessageSendingFailed(object sender, MessageSendingFailedEventArgs e)
         {
-            Console.WriteLine(e.Message);
+            // failed messages
         }
 
         private static void Client_OnMessageSent(object sender, MessageSentEventArgs e)
         {
-            Console.WriteLine(string.Format("Message sent to {0} , Message: {1}", e.MessageDetail.Recipient, e.MessageDetail.Message));
+            // received single message
         }
         private static void Client_OnServerConnected(object sender, SmsServerConnected e)
         {
-            Console.WriteLine("Server Connected");
+            // gsm connection established
         }
 
 
