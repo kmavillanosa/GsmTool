@@ -2,7 +2,7 @@
 
 Works with GSM Usb Stick Modem
 
-Usage:
+# Usage:
 
 
 ```C#
@@ -33,9 +33,13 @@ Usage:
          client.OnMessageSendingFailed += Client_OnMessageSendingFailed;
          client.OnServerConnectionFail += Client_OnServerConnectionFail;
          client.OnMessagesSent += Client_OnMessagesSent;
-       
-	//EVENTS 
-        private static void Client_OnMessagesSent(object sender, MessagesSentEventArgs e)
+```
+
+
+  # Event
+  
+  ```C#
+  	private static void Client_OnMessagesSent(object sender, MessagesSentEventArgs e)
         {
             Console.WriteLine(e.Message.ToList());
         }
@@ -58,4 +62,7 @@ Usage:
         {
             Console.WriteLine("Server Connected");
         }
-```
+
+
+  ```
+        
