@@ -3,19 +3,34 @@
 Works with GSM Usb Stick Modem
 
 # Usage:
-
-
 ```C#
 	SmsClient client = new SmsClient(); // client
         GsmConfiguration settings = new GsmConfiguration(); // configuration, (forms and properties)
-	
- 	// connect to gsm port 
+```
+## Raise events
+
+```C#
+         client.OnServerConnected += Client_OnServerConnected;
+         client.OnMessageSent += Client_OnMessageSent;
+         client.OnMessageSendingFailed += Client_OnMessageSendingFailed;
+         client.OnServerConnectionFail += Client_OnServerConnectionFail;
+         client.OnMessagesSent += Client_OnMessagesSent;
+
+```
+
+## Connect to gsm port 
+
+```C#
         client.RegisterConfiguration(new SmsConfiguration { BaudRate = 9600, Port = "Serial port here ex: (COM5,COM6)" }); 
-	
+```
+
+## Message sending 
+
+```C#
 	// single message
          client.SendMessage(new SmsDetails() { Message = "Gsm tester", Recipient = "Number" });
 	 
-	// multiple message
+	 // multiple message
         List<SmsDetails> detailList = new List<SmsDetails>();
         detailList.AddRange(new SmsDetails[]
                 {
@@ -26,17 +41,13 @@ Works with GSM Usb Stick Modem
                     new SmsDetails() { Message ="Hello World", Recipient = "Number" },
                 });
         client.SendMessages(detailList);
-
-        // raise events 
-         client.OnServerConnected += Client_OnServerConnected;
-         client.OnMessageSent += Client_OnMessageSent;
-         client.OnMessageSendingFailed += Client_OnMessageSendingFailed;
-         client.OnServerConnectionFail += Client_OnServerConnectionFail;
-         client.OnMessagesSent += Client_OnMessagesSent;
+	 
 ```
 
 
-  # Event
+
+
+  ## Events
   
   ```C#
   	private static void Client_OnMessagesSent(object sender, MessagesSentEventArgs e)
