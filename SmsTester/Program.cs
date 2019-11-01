@@ -52,22 +52,6 @@ namespace SmsTester
         {
             Console.WriteLine("Server Connected");
 
-
-            //   client.SendMessage(new SmsDetails() { Message = "Gsm tester", Recipient = "09106010641" });
-
-
-
-            // multiple
-            //List<SmsDetails> detailList = new List<SmsDetails>();
-            //detailList.AddRange(new SmsDetails[]
-            //        {
-            //            new SmsDetails() { Message = "Hello World", Recipient = "Number" },
-            //            new SmsDetails() { Message = "Hello World", Recipient = "Number" },
-            //            new SmsDetails() { Message ="Hello World", Recipient = "Number" },
-            //            new SmsDetails() { Message = "Hello World", Recipient = "Number" },
-            //            new SmsDetails() { Message ="Hello World", Recipient = "Number" },
-            //        });
-            //client.SendMessages(detailList);
         }
     }
 }

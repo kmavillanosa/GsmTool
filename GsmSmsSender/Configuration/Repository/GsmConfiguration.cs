@@ -28,6 +28,7 @@ namespace GsmSmsSender.Configuration.Repository
         {
             Load();
         }
+
         public void Save(ISmsConfiguration config)
         {
             try

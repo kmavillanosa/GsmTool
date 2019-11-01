@@ -51,7 +51,7 @@ namespace GsmSmsSender.Client.Repository
                         {
                             DatePosted = DateTime.Now,
                             guid = Guid.NewGuid(),
-                            Message = ex.Message
+                            Message = ex.InnerException.Message ?? ex.Message
                         });
                     }
                 }
@@ -80,7 +80,7 @@ namespace GsmSmsSender.Client.Repository
                     DateSent = DateTime.Now,
                     ErrorCode = Guid.NewGuid().ToString(),
                     ErrorNumber = ex.HResult,
-                    Message = ex.Message
+                    Message = ex.InnerException.Message ?? ex.Message
                 });
             }
 

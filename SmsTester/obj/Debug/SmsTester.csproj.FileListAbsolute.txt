@@ -9,3 +9,16 @@ c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\bin\D
 c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\obj\Debug\SmsTester.csprojResolveAssemblyReference.cache
 c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\obj\Debug\SmsTester.exe
 c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\SmsTester\obj\Debug\SmsTester.pdb
+D:\GithubRepositories\GsmTool\SmsTester\bin\Debug\SmsTester.exe.config
+D:\GithubRepositories\GsmTool\SmsTester\bin\Debug\SmsTester.exe
+D:\GithubRepositories\GsmTool\SmsTester\bin\Debug\SmsTester.pdb
+D:\GithubRepositories\GsmTool\SmsTester\bin\Debug\GsmSmsSender.dll
+D:\GithubRepositories\GsmTool\SmsTester\bin\Debug\GSMCommunication.dll
+D:\GithubRepositories\GsmTool\SmsTester\bin\Debug\PDUConverter.dll
+D:\GithubRepositories\GsmTool\SmsTester\bin\Debug\GSMCommShared.dll
+D:\GithubRepositories\GsmTool\SmsTester\bin\Debug\GsmSmsSender.pdb
+D:\GithubRepositories\GsmTool\SmsTester\obj\Debug\SmsTester.csprojAssemblyReference.cache
+D:\GithubRepositories\GsmTool\SmsTester\obj\Debug\SmsTester.csproj.CoreCompileInputs.cache
+D:\GithubRepositories\GsmTool\SmsTester\obj\Debug\SmsTester.csproj.CopyComplete
+D:\GithubRepositories\GsmTool\SmsTester\obj\Debug\SmsTester.exe
+D:\GithubRepositories\GsmTool\SmsTester\obj\Debug\SmsTester.pdb

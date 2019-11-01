@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace GsmSmsSender.Configuration.Infrastructure
 {
-    public interface ISmsConfigRepository<A> 
-        where A : ISmsConfiguration
+    public interface ISmsConfigRepository<T> 
+        where T : ISmsConfiguration
     {
         ISmsConfiguration config { get; set; }
-        void Save(A config);
+        void Save(T config);
         void Load();
         void LoadForm();
     }

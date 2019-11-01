@@ -9,3 +9,12 @@ c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\GsmSmsSender\bi
 c:\users\keem\documents\visual studio 2015\Projects\GsmSmsSender\GsmSmsSender\bin\Debug\PDUConverter.dll
 C:\Users\keem\Documents\Visual Studio 2015\Projects\GsmSmsSender\GsmSmsSender\obj\Debug\GsmSmsSender.Configuration.UI.ConfigForm.resources
 C:\Users\keem\Documents\Visual Studio 2015\Projects\GsmSmsSender\GsmSmsSender\obj\Debug\GsmSmsSender.csproj.GenerateResource.Cache
+D:\GithubRepositories\GsmTool\GsmSmsSender\bin\Debug\GsmSmsSender.dll
+D:\GithubRepositories\GsmTool\GsmSmsSender\bin\Debug\GsmSmsSender.pdb
+D:\GithubRepositories\GsmTool\GsmSmsSender\obj\Debug\GsmSmsSender.csprojAssemblyReference.cache
+D:\GithubRepositories\GsmTool\GsmSmsSender\obj\Debug\GsmSmsSender.Configuration.UI.ConfigForm.resources
+D:\GithubRepositories\GsmTool\GsmSmsSender\obj\Debug\GsmSmsSender.csproj.GenerateResource.cache
+D:\GithubRepositories\GsmTool\GsmSmsSender\obj\Debug\GsmSmsSender.csproj.CoreCompileInputs.cache
+D:\GithubRepositories\GsmTool\GsmSmsSender\obj\Debug\GsmSmsSender.csproj.CopyComplete
+D:\GithubRepositories\GsmTool\GsmSmsSender\obj\Debug\GsmSmsSender.dll
+D:\GithubRepositories\GsmTool\GsmSmsSender\obj\Debug\GsmSmsSender.pdb
