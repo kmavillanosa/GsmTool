@@ -11,7 +11,7 @@ namespace GsmSmsSender.Configuration.Data
     [Serializable]
     public class SmsConfiguration : ISmsConfiguration
     {
-        [Category("Configuration"),Description("Baud Rate")]
+        [Category("Configuration"),Description("BaudRate")]
         public int BaudRate
         {
             get;
